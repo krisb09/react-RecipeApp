@@ -1,0 +1,53 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 24px;
+}
+
+.searchForm {
+    margin-top: 20px;
+}
+
+.input-form {
+    padding: 6px 16px;
+    min-width: 200px;
+    max-height: 100vh;
+}
+
+.search-btn {
+    background-color: rgb(183, 197, 57);
+    color: white;
+    
+    border: solid 2px rgb(57, 176, 197);
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: white;
+    padding: 6px 16px;
+    color: rgb(57, 176, 197);
+    border: solid 2px rgb(57, 176, 197);
+    cursor: pointer;
+}
+
+.search-button {
+    color: white;
+    background-color: rgb(253, 82, 82);
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.result_recipes {
+    margin-top: 25px;
+    display: grid;
+    /* grid-template-columns: 230px 230px; */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    align-items: baseline;
+}
