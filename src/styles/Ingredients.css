@@ -1,0 +1,9 @@
+.ingredient-list {
+  padding-top: 10px;
+}
+
+th {
+  background-color: rgba(230, 207, 207, 0.541);
+  border-radius: 10px;
+  border: solid 1px rgb(0, 0, 0);
+}

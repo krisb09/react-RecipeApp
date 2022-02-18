@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.button {
+    font-size: 18px;
+}
+
+.nameLabel {
+    color: grey;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+label.form-label {
+    float: left;
+    padding-top: 20px;
+}
+
+form {
+    padding-top: 50px;
+    width: 50%;
+}
+
